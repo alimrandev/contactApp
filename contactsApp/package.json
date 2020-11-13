@@ -1,0 +1,38 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "imran",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "format": "prettier app.js",
+    "lint": "eslint \"src/**/*.{js,jsx}\""
+  },
+  "dependencies": {
+    "@types/react-router-dom": "^5.1.6",
+    "D": "^1.0.0",
+    "npm": "^7.0.6",
+    "parcel-bundler": "^1.12.4",
+    "prop-type": "^0.0.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^5.2.0",
+    "uuid": "^8.3.1",
+    "validator": "^13.1.17"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "babel": "^6.23.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "prettier": "^2.1.2"
+  }
+}
